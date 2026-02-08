@@ -1,0 +1,46 @@
+# AIPOM-CoT V10 Configuration
+
+# Database settings
+database:
+  neo4j_uri: bolt://localhost:7687
+  neo4j_user: neo4j
+  neo4j_password: neuroxiv  # From environment variable
+  database: neo4j
+
+# OpenAI settings
+openai:
+  api_key:
+  model: gpt-4o
+  temperature: 0.3
+  max_tokens: 1500
+
+# Schema
+schema:
+  json_path: ./schema_output/schema.json
+
+# Planner settings
+adaptive_planner:
+  default_depth: deep  # shallow | medium | deep
+  max_iterations: 15
+
+focus_planner:
+  enabled: true
+  auto_detect: true  # 自动检测是否使用focus-driven
+
+comparative_planner:
+  enabled: true
+  max_regions: 50
+  n_top_pairs: 10
+  fdr_alpha: 0.05
+
+# Statistical tools
+statistics:
+  n_permutations: 1000
+  bootstrap_iterations: 1000
+  confidence_level: 0.95
+
+# Answer synthesis
+synthesis:
+  max_answer_length: 1500
+  include_limitations: true
+  include_statistics: true

@@ -1,0 +1,2158 @@
+{
+  "nodes": {
+    "Class": {
+      "properties": {
+        "dominant_neurotransmitter_type": {
+          "type": "str",
+          "sample_value": "",
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "markers": {
+          "type": "str",
+          "sample_value": "",
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "number_of_neurons": {
+          "type": "int",
+          "sample_value": 657089,
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "tran_id": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "01 IT-ET Glut",
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "number_of_child_types": {
+          "type": "int",
+          "sample_value": 26,
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "id": {
+          "type": "int",
+          "sample_value": 301,
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        },
+        "neighborhood": {
+          "type": "str",
+          "sample_value": "Pallium-Glut",
+          "non_null_count": 28,
+          "coverage": "28/28 (100.0%)"
+        }
+      },
+      "count": 28,
+      "sample_nodes": [
+        {
+          "number_of_child_types": 26,
+          "number_of_neurons": 657089,
+          "dominant_neurotransmitter_type": "",
+          "name": "01 IT-ET Glut",
+          "tran_id": 1,
+          "id": 301,
+          "neighborhood": "Pallium-Glut",
+          "markers": ""
+        },
+        {
+          "number_of_child_types": 8,
+          "number_of_neurons": 145860,
+          "dominant_neurotransmitter_type": "",
+          "name": "02 NP-CT-L6b Glut",
+          "tran_id": 2,
+          "id": 302,
+          "neighborhood": "Pallium-Glut",
+          "markers": ""
+        },
+        {
+          "number_of_child_types": 2,
+          "number_of_neurons": 31297,
+          "dominant_neurotransmitter_type": "",
+          "name": "03 OB-CR Glut",
+          "tran_id": 3,
+          "id": 303,
+          "neighborhood": "Pallium-Glut",
+          "markers": ""
+        }
+      ]
+    },
+    "Cluster": {
+      "properties": {
+        "dominant_neurotransmitter_type": {
+          "type": "str",
+          "sample_value": "Glut",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "markers": {
+          "type": "str",
+          "sample_value": "Car3,Satb2,Lgr5",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "number_of_neurons": {
+          "type": "int",
+          "sample_value": 3450,
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "broad_region_distribution": {
+          "type": "str",
+          "sample_value": "Isocortex:0.57,CTXsp:0.21,OLF:0.2",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "anatomical_annotation": {
+          "type": "str",
+          "sample_value": "CLA-EPd-iCTX",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "within_subclass_markers": {
+          "type": "str",
+          "sample_value": "Lgr5",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "tran_id": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "0001 CLA-EPd-CTX Car3 Glut_1",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "neuropeptide_mark_genes": {
+          "type": "str",
+          "sample_value": "Cck:9.5,Cartpt:3.7",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "id": {
+          "type": "int",
+          "sample_value": 1928,
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "transcription_factor_markers": {
+          "type": "str",
+          "sample_value": "Satb2,Nr2f2,Rarb,Rorb,Pou6f2,Nr4a2",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        },
+        "neurotransmitter_mark_genes": {
+          "type": "str",
+          "sample_value": "Slc17a7:9.91,Slc17a6:4.87",
+          "non_null_count": 5204,
+          "coverage": "5204/5204 (100.0%)"
+        }
+      },
+      "count": 5204,
+      "sample_nodes": [
+        {
+          "number_of_neurons": 3450,
+          "dominant_neurotransmitter_type": "Glut",
+          "neuropeptide_mark_genes": "Cck:9.5,Cartpt:3.7",
+          "name": "0001 CLA-EPd-CTX Car3 Glut_1",
+          "tran_id": 1,
+          "within_subclass_markers": "Lgr5",
+          "id": 1928,
+          "transcription_factor_markers": "Satb2,Nr2f2,Rarb,Rorb,Pou6f2,Nr4a2",
+          "markers": "Car3,Satb2,Lgr5",
+          "neurotransmitter_mark_genes": "Slc17a7:9.91,Slc17a6:4.87",
+          "broad_region_distribution": "Isocortex:0.57,CTXsp:0.21,OLF:0.2",
+          "anatomical_annotation": "CLA-EPd-iCTX"
+        },
+        {
+          "number_of_neurons": 1713,
+          "dominant_neurotransmitter_type": "Glut",
+          "neuropeptide_mark_genes": "Cck:9",
+          "name": "0002 CLA-EPd-CTX Car3 Glut_1",
+          "within_subclass_markers": "4930407I19Rik",
+          "tran_id": 2,
+          "transcription_factor_markers": "Osr1,Satb2,Cux2",
+          "id": 1929,
+          "markers": "Car3,Slc17a7,4930407I19Rik",
+          "neurotransmitter_mark_genes": "Slc17a7:9.58",
+          "broad_region_distribution": "Isocortex:0.64,CTXsp:0.24",
+          "anatomical_annotation": "CLA-iCTX, EPd po"
+        },
+        {
+          "number_of_neurons": 6192,
+          "dominant_neurotransmitter_type": "Glut",
+          "neuropeptide_mark_genes": "Cck:9.6",
+          "name": "0003 CLA-EPd-CTX Car3 Glut_1",
+          "within_subclass_markers": "Ccbe1",
+          "tran_id": 3,
+          "id": 1930,
+          "transcription_factor_markers": "Satb2,Zfhx4,Ovol2,Nr2f2,Rarb,Zfpm2",
+          "markers": "Car3,Satb2,Ccbe1",
+          "neurotransmitter_mark_genes": "Slc17a7:9.45,Slc17a6:6.26",
+          "broad_region_distribution": "Isocortex:0.9",
+          "anatomical_annotation": "TPE-AI mostly"
+        }
+      ]
+    },
+    "ME_Subregion": {
+      "properties": {
+        "parent_subregion": {
+          "type": "str",
+          "sample_value": "MOp2/3",
+          "non_null_count": 628,
+          "coverage": "628/628 (100.0%)"
+        },
+        "rgb_triplet": {
+          "type": "list",
+          "sample_value": [
+            31,
+            157,
+            90
+          ],
+          "non_null_count": 628,
+          "coverage": "628/628 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "Primary motor area, Layer 2/3, dendrite microenvironment based region 1",
+          "non_null_count": 628,
+          "coverage": "628/628 (100.0%)"
+        },
+        "acronym": {
+          "type": "str",
+          "sample_value": "MOp2/3-ME1",
+          "non_null_count": 628,
+          "coverage": "628/628 (100.0%)"
+        },
+        "me_subregion_id": {
+          "type": "str",
+          "sample_value": "943_953",
+          "non_null_count": 628,
+          "coverage": "628/628 (100.0%)"
+        }
+      },
+      "count": 628,
+      "sample_nodes": [
+        {
+          "acronym": "MOp2/3-ME1",
+          "me_subregion_id": "943_953",
+          "name": "Primary motor area, Layer 2/3, dendrite microenvironment based region 1",
+          "rgb_triplet": [
+            31,
+            157,
+            90
+          ],
+          "parent_subregion": "MOp2/3"
+        },
+        {
+          "acronym": "MOp2/3-ME2",
+          "me_subregion_id": "943_954",
+          "name": "Primary motor area, Layer 2/3, dendrite microenvironment based region 2",
+          "rgb_triplet": [
+            31,
+            157,
+            90
+          ],
+          "parent_subregion": "MOp2/3"
+        },
+        {
+          "acronym": "MOp2/3-ME3",
+          "me_subregion_id": "943_955",
+          "name": "Primary motor area, Layer 2/3, dendrite microenvironment based region 3",
+          "rgb_triplet": [
+            31,
+            157,
+            90
+          ],
+          "parent_subregion": "MOp2/3"
+        }
+      ]
+    },
+    "Neuron": {
+      "properties": {
+        "dendritic_slimness_95ci": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_50pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_slimness": {
+          "type": "float",
+          "sample_value": 0.5293459417046502,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_total_length": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "neuron_id": {
+          "type": "str",
+          "sample_value": "ION_full_201770_008_CCFv3",
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_area": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_volume": {
+          "type": "float",
+          "sample_value": 15023343006.908575,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_average_euclidean_distance": {
+          "type": "float",
+          "sample_value": 2432.846293579268,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_relative_center_shift": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_flatness": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_max_path_distance": {
+          "type": "float",
+          "sample_value": 9451.25458508074,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_max_euclidean_distance": {
+          "type": "float",
+          "sample_value": 5747.922962338587,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_max_branch_order": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_75pct_path_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_center_shift": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_average_contraction": {
+          "type": "float",
+          "sample_value": 0.8506856780636308,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_flatness": {
+          "type": "float",
+          "sample_value": 5.593351030952896,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_depth_95ci": {
+          "type": "float",
+          "sample_value": 949.314730834961,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_max_branch_order": {
+          "type": "float",
+          "sample_value": 16.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_width_95ci": {
+          "type": "float",
+          "sample_value": 3493.3087432861325,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_slimness_95ci": {
+          "type": "float",
+          "sample_value": 0.5190823297809602,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "ION_full_201770_008_CCFv3",
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_3d_density": {
+          "type": "float",
+          "sample_value": 3.72520283762836e-06,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_50pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 2347.4536020470114,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_50pct_path_distance": {
+          "type": "float",
+          "sample_value": 3280.4706589956795,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_height": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_number_of_bifurcations": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_2d_density": {
+          "type": "float",
+          "sample_value": 0.0029514494745135,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_3d_density": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_50pct_path_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_depth_95ci": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_75pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 4470.67563409731,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_max_euclidean_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_average_path_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_25pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_width": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_volume": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_area": {
+          "type": "float",
+          "sample_value": 17301329.54704132,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_number_of_bifurcations": {
+          "type": "float",
+          "sample_value": 70.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_2d_density": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_average_bifurcation_angle_local": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "celltype": {
+          "type": "str",
+          "sample_value": "CA1",
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_25pct_path_distance": {
+          "type": "float",
+          "sample_value": 1105.2999347919235,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_center_shift": {
+          "type": "float",
+          "sample_value": 1542.2061694941972,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_height_95ci": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_average_contraction": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_slimness": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_depth": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_height_95ci": {
+          "type": "float",
+          "sample_value": 6729.777807617187,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_height": {
+          "type": "float",
+          "sample_value": 7155.515869140625,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_75pct_path_distance": {
+          "type": "float",
+          "sample_value": 6106.533093560937,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_average_bifurcation_angle_remote": {
+          "type": "float",
+          "sample_value": 53.80583983694522,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_width": {
+          "type": "float",
+          "sample_value": 3787.743286132813,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_total_length": {
+          "type": "float",
+          "sample_value": 47400.77481879247,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_width_95ci": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_flatness_95ci": {
+          "type": "float",
+          "sample_value": 7.089090255344583,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_average_path_distance": {
+          "type": "float",
+          "sample_value": 3605.5456889227694,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_average_bifurcation_angle_remote": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_75pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_flatness_95ci": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_depth": {
+          "type": "float",
+          "sample_value": 1279.2896118164062,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_relative_center_shift": {
+          "type": "float",
+          "sample_value": 0.2683066874067391,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_max_path_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_25pct_path_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "base_region": {
+          "type": "str",
+          "sample_value": "CA",
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_average_bifurcation_angle_local": {
+          "type": "float",
+          "sample_value": 63.01808678438939,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "dendritic_average_euclidean_distance": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        },
+        "axonal_25pct_euclidean_distance": {
+          "type": "float",
+          "sample_value": 584.3193034998797,
+          "non_null_count": 26740,
+          "coverage": "26740/26740 (100.0%)"
+        }
+      },
+      "count": 26740,
+      "sample_nodes": [
+        {
+          "axonal_center_shift": 1542.2061694941972,
+          "dendritic_average_euclidean_distance": 0.0,
+          "axonal_max_branch_order": 16.0,
+          "axonal_depth": 1279.2896118164062,
+          "axonal_50pct_path_distance": 3280.4706589956795,
+          "axonal_number_of_bifurcations": 70.0,
+          "axonal_depth_95ci": 949.314730834961,
+          "axonal_25pct_path_distance": 1105.2999347919235,
+          "dendritic_max_branch_order": 0.0,
+          "dendritic_50pct_path_distance": 0.0,
+          "base_region": "CA",
+          "dendritic_25pct_euclidean_distance": 0.0,
+          "axonal_relative_center_shift": 0.2683066874067391,
+          "dendritic_area": 0.0,
+          "axonal_width": 3787.743286132813,
+          "dendritic_25pct_path_distance": 0.0,
+          "dendritic_width_95ci": 0.0,
+          "axonal_height": 7155.515869140625,
+          "axonal_3d_density": 3.72520283762836e-06,
+          "axonal_max_path_distance": 9451.25458508074,
+          "dendritic_height_95ci": 0.0,
+          "neuron_id": "ION_full_201770_008_CCFv3",
+          "dendritic_volume": 0.0,
+          "dendritic_2d_density": 0.0,
+          "dendritic_depth_95ci": 0.0,
+          "axonal_volume": 15023343006.908575,
+          "axonal_width_95ci": 3493.3087432861325,
+          "dendritic_slimness": 0.0,
+          "dendritic_depth": 0.0,
+          "axonal_flatness_95ci": 7.089090255344583,
+          "dendritic_width": 0.0,
+          "axonal_average_contraction": 0.8506856780636308,
+          "name": "ION_full_201770_008_CCFv3",
+          "dendritic_average_bifurcation_angle_local": 0.0,
+          "axonal_max_euclidean_distance": 5747.922962338587,
+          "axonal_75pct_path_distance": 6106.533093560937,
+          "dendritic_flatness": 0.0,
+          "axonal_25pct_euclidean_distance": 584.3193034998797,
+          "axonal_slimness_95ci": 0.5190823297809602,
+          "celltype": "CA1",
+          "axonal_average_euclidean_distance": 2432.846293579268,
+          "axonal_average_path_distance": 3605.5456889227694,
+          "axonal_75pct_euclidean_distance": 4470.67563409731,
+          "dendritic_max_path_distance": 0.0,
+          "axonal_average_bifurcation_angle_remote": 53.80583983694522,
+          "dendritic_relative_center_shift": 0.0,
+          "axonal_total_length": 47400.77481879247,
+          "axonal_2d_density": 0.0029514494745135,
+          "dendritic_3d_density": 0.0,
+          "dendritic_max_euclidean_distance": 0.0,
+          "axonal_height_95ci": 6729.777807617187,
+          "axonal_50pct_euclidean_distance": 2347.4536020470114,
+          "dendritic_center_shift": 0.0,
+          "dendritic_flatness_95ci": 0.0,
+          "dendritic_height": 0.0,
+          "dendritic_total_length": 0.0,
+          "dendritic_average_bifurcation_angle_remote": 0.0,
+          "axonal_average_bifurcation_angle_local": 63.01808678438939,
+          "axonal_flatness": 5.593351030952896,
+          "dendritic_slimness_95ci": 0.0,
+          "dendritic_number_of_bifurcations": 0.0,
+          "axonal_area": 17301329.54704132,
+          "dendritic_75pct_euclidean_distance": 0.0,
+          "dendritic_75pct_path_distance": 0.0,
+          "dendritic_50pct_euclidean_distance": 0.0,
+          "dendritic_average_path_distance": 0.0,
+          "dendritic_average_contraction": 0.0,
+          "axonal_slimness": 0.5293459417046502
+        },
+        {
+          "axonal_center_shift": 768.8063903590175,
+          "dendritic_average_euclidean_distance": 0.0,
+          "axonal_max_branch_order": 19.0,
+          "axonal_depth": 1280.4327392578125,
+          "axonal_50pct_path_distance": 1826.8119500454693,
+          "axonal_number_of_bifurcations": 106.0,
+          "axonal_depth_95ci": 1028.0739868164062,
+          "axonal_25pct_path_distance": 1368.9361053247983,
+          "dendritic_max_branch_order": 0.0,
+          "dendritic_50pct_path_distance": 0.0,
+          "base_region": "CA",
+          "dendritic_25pct_euclidean_distance": 0.0,
+          "axonal_relative_center_shift": 0.2085099582129812,
+          "dendritic_area": 0.0,
+          "axonal_width": 3316.330444335937,
+          "dendritic_25pct_path_distance": 0.0,
+          "dendritic_width_95ci": 0.0,
+          "axonal_height": 4372.53955078125,
+          "axonal_3d_density": 1.6185891930582253e-05,
+          "axonal_max_path_distance": 4453.053881385949,
+          "dendritic_height_95ci": 0.0,
+          "neuron_id": "ION_full_201770_009_CCFv3",
+          "dendritic_volume": 0.0,
+          "dendritic_2d_density": 0.0,
+          "dendritic_depth_95ci": 0.0,
+          "axonal_volume": 3056180049.400622,
+          "axonal_width_95ci": 2486.959913635254,
+          "dendritic_slimness": 0.0,
+          "dendritic_depth": 0.0,
+          "axonal_flatness_95ci": 3.838449407295701,
+          "dendritic_width": 0.0,
+          "axonal_average_contraction": 0.8579648341088569,
+          "name": "ION_full_201770_009_CCFv3",
+          "dendritic_average_bifurcation_angle_local": 0.0,
+          "axonal_max_euclidean_distance": 3687.144714564303,
+          "axonal_75pct_path_distance": 2278.7455221655564,
+          "dendritic_flatness": 0.0,
+          "axonal_25pct_euclidean_distance": 920.3151073127542,
+          "axonal_slimness_95ci": 0.630214794161212,
+          "celltype": "CA1",
+          "axonal_average_euclidean_distance": 1187.3456985332762,
+          "axonal_average_path_distance": 1806.093649317784,
+          "axonal_75pct_euclidean_distance": 1480.3418089020963,
+          "dendritic_max_path_distance": 0.0,
+          "axonal_average_bifurcation_angle_remote": 72.77845936054301,
+          "dendritic_relative_center_shift": 0.0,
+          "axonal_total_length": 41967.99488833185,
+          "axonal_2d_density": 0.0079812277136252,
+          "dendritic_3d_density": 0.0,
+          "dendritic_max_euclidean_distance": 0.0,
+          "axonal_height_95ci": 3946.2099853515615,
+          "axonal_50pct_euclidean_distance": 1083.3537579683598,
+          "dendritic_center_shift": 0.0,
+          "dendritic_flatness_95ci": 0.0,
+          "dendritic_height": 0.0,
+          "dendritic_total_length": 0.0,
+          "dendritic_average_bifurcation_angle_remote": 0.0,
+          "axonal_average_bifurcation_angle_local": 62.02762456681896,
+          "axonal_flatness": 3.414892025734784,
+          "dendritic_slimness_95ci": 0.0,
+          "dendritic_number_of_bifurcations": 0.0,
+          "axonal_area": 5651762.061993718,
+          "dendritic_75pct_euclidean_distance": 0.0,
+          "dendritic_75pct_path_distance": 0.0,
+          "dendritic_50pct_euclidean_distance": 0.0,
+          "dendritic_average_path_distance": 0.0,
+          "dendritic_average_contraction": 0.0,
+          "axonal_slimness": 0.7584449279008585
+        },
+        {
+          "axonal_center_shift": 4807.238737100983,
+          "dendritic_average_euclidean_distance": 0.0,
+          "axonal_max_branch_order": 30.0,
+          "axonal_depth": 2451.855224609375,
+          "axonal_50pct_path_distance": 10602.737536177872,
+          "axonal_number_of_bifurcations": 201.0,
+          "axonal_depth_95ci": 2211.665860939026,
+          "axonal_25pct_path_distance": 9349.89920214034,
+          "dendritic_max_branch_order": 0.0,
+          "dendritic_50pct_path_distance": 0.0,
+          "base_region": "fp",
+          "dendritic_25pct_euclidean_distance": 0.0,
+          "axonal_relative_center_shift": 0.6731903426148149,
+          "dendritic_area": 0.0,
+          "axonal_width": 4724.950439453125,
+          "dendritic_25pct_path_distance": 0.0,
+          "dendritic_width_95ci": 0.0,
+          "axonal_height": 6973.786186218262,
+          "axonal_3d_density": 3.47546695628855e-06,
+          "axonal_max_path_distance": 14360.939371085073,
+          "dendritic_height_95ci": 0.0,
+          "neuron_id": "ION_full_201770_010_CCFv3",
+          "dendritic_volume": 0.0,
+          "dendritic_2d_density": 0.0,
+          "dendritic_depth_95ci": 0.0,
+          "axonal_volume": 33255387392.15225,
+          "axonal_width_95ci": 4354.371536254883,
+          "dendritic_slimness": 0.0,
+          "dendritic_depth": 0.0,
+          "axonal_flatness_95ci": 2.921200533592332,
+          "dendritic_width": 0.0,
+          "axonal_average_contraction": 0.8573975513653466,
+          "name": "ION_full_201770_010_CCFv3",
+          "dendritic_average_bifurcation_angle_local": 0.0,
+          "axonal_max_euclidean_distance": 7140.979946962165,
+          "axonal_75pct_path_distance": 11861.017375665624,
+          "dendritic_flatness": 0.0,
+          "axonal_25pct_euclidean_distance": 4773.016341812406,
+          "axonal_slimness_95ci": 0.6739762561899304,
+          "celltype": "fp",
+          "axonal_average_euclidean_distance": 5042.825499425239,
+          "axonal_average_path_distance": 9881.367436414175,
+          "axonal_75pct_euclidean_distance": 5625.489012683861,
+          "dendritic_max_path_distance": 0.0,
+          "axonal_average_bifurcation_angle_remote": 67.43738567960028,
+          "dendritic_relative_center_shift": 0.0,
+          "axonal_total_length": 98750.17342682696,
+          "axonal_2d_density": 0.0049126655365467,
+          "dendritic_3d_density": 0.0,
+          "dendritic_max_euclidean_distance": 0.0,
+          "axonal_height_95ci": 6460.719493103027,
+          "axonal_50pct_euclidean_distance": 5191.290105573526,
+          "dendritic_center_shift": 0.0,
+          "dendritic_flatness_95ci": 0.0,
+          "dendritic_height": 0.0,
+          "dendritic_total_length": 0.0,
+          "dendritic_average_bifurcation_angle_remote": 0.0,
+          "axonal_average_bifurcation_angle_local": 68.67063719654575,
+          "axonal_flatness": 2.8442895470426124,
+          "dendritic_slimness_95ci": 0.0,
+          "dendritic_number_of_bifurcations": 0.0,
+          "axonal_area": 21105650.125915784,
+          "dendritic_75pct_euclidean_distance": 0.0,
+          "dendritic_75pct_path_distance": 0.0,
+          "dendritic_50pct_euclidean_distance": 0.0,
+          "dendritic_average_path_distance": 0.0,
+          "dendritic_average_contraction": 0.0,
+          "axonal_slimness": 0.6775301555402814
+        }
+      ]
+    },
+    "Region": {
+      "properties": {
+        "number_of_transcriptomic_neurons": {
+          "type": "int",
+          "sample_value": 104847,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "number_of_apical_dendritic_morphologies": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "region_id": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "axonal_maximum_branch_order": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "dendritic_maximum_branch_order": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "axonal_branches": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "full_name": {
+          "type": "str",
+          "sample_value": "Region_0",
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "dendritic_branches": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "parent_id": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "axonal_bifurcation_remote_angle": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "acronym": {
+          "type": "str",
+          "sample_value": "Region_0",
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "number_of_neuron_morphologies": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "Region_0",
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "number_of_axonal_morphologies": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "axonal_length": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "dendritic_length": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "number_of_dendritic_morphologies": {
+          "type": "int",
+          "sample_value": 0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        },
+        "dendritic_bifurcation_remote_angle": {
+          "type": "float",
+          "sample_value": 0.0,
+          "non_null_count": 337,
+          "coverage": "337/337 (100.0%)"
+        }
+      },
+      "count": 337,
+      "sample_nodes": [
+        {
+          "number_of_axonal_morphologies": 0,
+          "number_of_apical_dendritic_morphologies": 0,
+          "acronym": "Region_0",
+          "dendritic_bifurcation_remote_angle": 0.0,
+          "number_of_dendritic_morphologies": 0,
+          "region_id": 0,
+          "dendritic_maximum_branch_order": 0.0,
+          "axonal_length": 0.0,
+          "axonal_branches": 0.0,
+          "number_of_neuron_morphologies": 0,
+          "axonal_maximum_branch_order": 0.0,
+          "full_name": "Region_0",
+          "number_of_transcriptomic_neurons": 104847,
+          "dendritic_branches": 0.0,
+          "parent_id": 0,
+          "axonal_bifurcation_remote_angle": 0.0,
+          "name": "Region_0",
+          "dendritic_length": 0.0
+        },
+        {
+          "number_of_axonal_morphologies": 78,
+          "number_of_apical_dendritic_morphologies": 0,
+          "acronym": "TMv",
+          "dendritic_bifurcation_remote_angle": 72.91767409408253,
+          "number_of_dendritic_morphologies": 76,
+          "region_id": 1,
+          "dendritic_maximum_branch_order": 5.184210526315789,
+          "axonal_length": 49892.269465919635,
+          "axonal_branches": 258.5897435897436,
+          "number_of_neuron_morphologies": 78,
+          "axonal_maximum_branch_order": 40.92307692307692,
+          "full_name": "Tuberomammillary nucleus, ventral part",
+          "number_of_transcriptomic_neurons": 667,
+          "dendritic_branches": 10.289473684210526,
+          "parent_id": 0,
+          "axonal_bifurcation_remote_angle": 79.38699169669229,
+          "name": "TMv",
+          "dendritic_length": 2620.4752489841044
+        },
+        {
+          "number_of_axonal_morphologies": 2,
+          "number_of_apical_dendritic_morphologies": 0,
+          "acronym": "PRM",
+          "dendritic_bifurcation_remote_angle": 66.5303607316699,
+          "number_of_dendritic_morphologies": 2,
+          "region_id": 1025,
+          "dendritic_maximum_branch_order": 23.0,
+          "axonal_length": 5063.489361541977,
+          "axonal_branches": 51.0,
+          "number_of_neuron_morphologies": 2,
+          "axonal_maximum_branch_order": 14.0,
+          "full_name": "Paramedian lobule",
+          "number_of_transcriptomic_neurons": 33662,
+          "parent_id": 0,
+          "dendritic_branches": 175.5,
+          "axonal_bifurcation_remote_angle": 74.10386019827536,
+          "name": "PRM",
+          "dendritic_length": 5655.934015238194
+        }
+      ]
+    },
+    "Subclass": {
+      "properties": {
+        "dominant_neurotransmitter_type": {
+          "type": "str",
+          "sample_value": "Glut",
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "viz_x": {
+          "type": "float",
+          "sample_value": -11.996800255990312,
+          "non_null_count": 21,
+          "coverage": "21/314 (6.7%)"
+        },
+        "markers": {
+          "type": "str",
+          "sample_value": "Car3,Slc17a7",
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "viz_layer": {
+          "type": "int",
+          "sample_value": 2,
+          "non_null_count": 21,
+          "coverage": "21/314 (6.7%)"
+        },
+        "number_of_neurons": {
+          "type": "int",
+          "sample_value": 18996,
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "tran_id": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "001 CLA-EPd-CTX Car3 Glut",
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "number_of_child_types": {
+          "type": "int",
+          "sample_value": 2,
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "transcription_factor_markers": {
+          "type": "str",
+          "sample_value": "Cux2,Satb2,Nr4a2,Zfhx4,Pou6f2",
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "id": {
+          "type": "int",
+          "sample_value": 351,
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "neighborhood": {
+          "type": "str",
+          "sample_value": "Pallium-Glut",
+          "non_null_count": 314,
+          "coverage": "314/314 (100.0%)"
+        },
+        "viz_y": {
+          "type": "float",
+          "sample_value": -299.76003199829336,
+          "non_null_count": 21,
+          "coverage": "21/314 (6.7%)"
+        }
+      },
+      "count": 314,
+      "sample_nodes": [
+        {
+          "number_of_child_types": 2,
+          "number_of_neurons": 18996,
+          "dominant_neurotransmitter_type": "Glut",
+          "name": "001 CLA-EPd-CTX Car3 Glut",
+          "tran_id": 1,
+          "transcription_factor_markers": "Cux2,Satb2,Nr4a2,Zfhx4,Pou6f2",
+          "id": 351,
+          "neighborhood": "Pallium-Glut",
+          "markers": "Car3,Slc17a7"
+        },
+        {
+          "viz_x": -11.996800255990312,
+          "number_of_child_types": 4,
+          "viz_y": -299.76003199829336,
+          "number_of_neurons": 8063,
+          "dominant_neurotransmitter_type": "Glut",
+          "viz_layer": 2,
+          "name": "002 IT EP-CLA Glut",
+          "tran_id": 2,
+          "transcription_factor_markers": "Satb2,Pparg,Bcl11b,Foxo6,Lin28b,Hes1,Nr4a2,Tox3",
+          "id": 352,
+          "neighborhood": "Pallium-Glut",
+          "markers": "Npsr1,Satb2,Plekha2"
+        },
+        {
+          "viz_x": 11.996800255990202,
+          "number_of_child_types": 6,
+          "viz_y": -299.76003199829336,
+          "number_of_neurons": 2656,
+          "dominant_neurotransmitter_type": "Glut",
+          "viz_layer": 2,
+          "name": "003 L5/6 IT TPE-ENT Glut",
+          "tran_id": 3,
+          "transcription_factor_markers": "Sox9,Satb2,Fezf2,Pou6f2,Foxo6,Nr2f2",
+          "id": 353,
+          "neighborhood": "Pallium-Glut",
+          "markers": "Susd5,Slc17a7,Mas1"
+        }
+      ]
+    },
+    "Subregion": {
+      "properties": {
+        "subregion_id": {
+          "type": "int",
+          "sample_value": 68,
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        },
+        "viz_x": {
+          "type": "float",
+          "sample_value": 61.80339887498945,
+          "non_null_count": 20,
+          "coverage": "20/365 (5.5%)"
+        },
+        "viz_layer": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 20,
+          "coverage": "20/365 (5.5%)"
+        },
+        "rgb_triplet": {
+          "type": "list",
+          "sample_value": [
+            38,
+            143,
+            69
+          ],
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "Frontal pole, layer 1",
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        },
+        "acronym": {
+          "type": "str",
+          "sample_value": "FRP1",
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        },
+        "viz_y": {
+          "type": "float",
+          "sample_value": -190.21130325903073,
+          "non_null_count": 20,
+          "coverage": "20/365 (5.5%)"
+        },
+        "has_me_children": {
+          "type": "bool",
+          "sample_value": false,
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        },
+        "parent_region": {
+          "type": "str",
+          "sample_value": "FRP",
+          "non_null_count": 365,
+          "coverage": "365/365 (100.0%)"
+        }
+      },
+      "count": 365,
+      "sample_nodes": [
+        {
+          "parent_region": "FRP",
+          "acronym": "FRP1",
+          "name": "Frontal pole, layer 1",
+          "subregion_id": 68,
+          "rgb_triplet": [
+            38,
+            143,
+            69
+          ],
+          "has_me_children": false
+        },
+        {
+          "parent_region": "FRP",
+          "acronym": "FRP2/3",
+          "name": "Frontal pole, layer 2/3",
+          "subregion_id": 667,
+          "rgb_triplet": [
+            38,
+            143,
+            69
+          ],
+          "has_me_children": false
+        },
+        {
+          "parent_region": "FRP",
+          "acronym": "FRP5",
+          "name": "Frontal pole, layer 5",
+          "subregion_id": 526157192,
+          "rgb_triplet": [
+            38,
+            143,
+            69
+          ],
+          "has_me_children": false
+        }
+      ]
+    },
+    "Supertype": {
+      "properties": {
+        "markers": {
+          "type": "str",
+          "sample_value": "Car3,Nrg3,Gm34567",
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "number_of_neurons": {
+          "type": "int",
+          "sample_value": 18474,
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "within_subclass_markers": {
+          "type": "str",
+          "sample_value": "Itga8",
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "tran_id": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "name": {
+          "type": "str",
+          "sample_value": "0001 CLA-EPd-CTX Car3 Glut_1",
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "number_of_child_types": {
+          "type": "int",
+          "sample_value": 4,
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        },
+        "id": {
+          "type": "int",
+          "sample_value": 601,
+          "non_null_count": 1155,
+          "coverage": "1155/1155 (100.0%)"
+        }
+      },
+      "count": 1155,
+      "sample_nodes": [
+        {
+          "number_of_child_types": 4,
+          "number_of_neurons": 18474,
+          "name": "0001 CLA-EPd-CTX Car3 Glut_1",
+          "within_subclass_markers": "Itga8",
+          "tran_id": 1,
+          "id": 601,
+          "markers": "Car3,Nrg3,Gm34567"
+        },
+        {
+          "number_of_child_types": 1,
+          "number_of_neurons": 522,
+          "name": "0002 CLA-EPd-CTX Car3 Glut_2",
+          "tran_id": 2,
+          "within_subclass_markers": "Egr2",
+          "id": 602,
+          "markers": "Ccnb1,Tcf7l1"
+        },
+        {
+          "number_of_child_types": 7,
+          "number_of_neurons": 6148,
+          "name": "0003 IT EP-CLA Glut_1",
+          "tran_id": 3,
+          "within_subclass_markers": "Sema5b,Tll2,5330416C01Rik,Oprk1",
+          "id": 603,
+          "markers": "Osr1,Satb2,Gpr88,Ccdc80,Lhfp"
+        }
+      ]
+    }
+  },
+  "relationships": {
+    "AXON_NEIGHBOURING": {
+      "count": 128575491,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "Neuron",
+          128575491
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "ION_full_194778_061_CCFv3"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "MouseLight_full_AA0639_CCFv3"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "ION_full_195820_031_CCFv3"
+        }
+      ]
+    },
+    "BELONGS_TO": {
+      "count": 7596,
+      "properties": {},
+      "patterns": [
+        [
+          "Cluster",
+          "Supertype",
+          5204
+        ],
+        [
+          "Supertype",
+          "Subclass",
+          1155
+        ],
+        [
+          "ME_Subregion",
+          "Subregion",
+          628
+        ],
+        [
+          "Subclass",
+          "Class",
+          314
+        ],
+        [
+          "Subregion",
+          "Region",
+          295
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Subclass"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {},
+          "source_name": "001 CLA-EPd-CTX Car3 Glut",
+          "target_name": "01 IT-ET Glut"
+        },
+        {
+          "source_labels": [
+            "Subclass"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {},
+          "source_name": "002 IT EP-CLA Glut",
+          "target_name": "01 IT-ET Glut"
+        },
+        {
+          "source_labels": [
+            "Subclass"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {},
+          "source_name": "003 L5/6 IT TPE-ENT Glut",
+          "target_name": "01 IT-ET Glut"
+        }
+      ]
+    },
+    "DEN_NEIGHBOURING": {
+      "count": 128575491,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "Neuron",
+          128575491
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "SEU-ALLEN_full_18867_4593_x26568_y15120_CCFv3"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "ION_full_194808_007_CCFv3"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "ION_full_202175_030_CCFv3"
+        }
+      ]
+    },
+    "HAS_CLASS": {
+      "count": 2391,
+      "properties": {
+        "rank": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 2391,
+          "coverage": "2391/2391 (100.0%)"
+        },
+        "pct_cells": {
+          "type": "float",
+          "sample_value": 0.18140929535232383,
+          "non_null_count": 2391,
+          "coverage": "2391/2391 (100.0%)"
+        }
+      },
+      "patterns": [
+        [
+          "Subregion",
+          "Class",
+          1131
+        ],
+        [
+          "Region",
+          "Class",
+          1037
+        ],
+        [
+          "ME_Subregion",
+          "Class",
+          223
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {
+            "pct_cells": 0.18140929535232383,
+            "rank": 1
+          },
+          "source_name": "TMv",
+          "target_name": "12 HY GABA"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {
+            "pct_cells": 0.07496251874062969,
+            "rank": 2
+          },
+          "source_name": "TMv",
+          "target_name": "14 HY Glut"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Class"
+          ],
+          "properties": {
+            "pct_cells": 0.4006900104594346,
+            "rank": 1
+          },
+          "source_name": "IC",
+          "target_name": "19 MB Glut"
+        }
+      ]
+    },
+    "HAS_CLUSTER": {
+      "count": 5221,
+      "properties": {
+        "rank": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 5221,
+          "coverage": "5221/5221 (100.0%)"
+        },
+        "pct_cells": {
+          "type": "float",
+          "sample_value": 0.07196401799100449,
+          "non_null_count": 5221,
+          "coverage": "5221/5221 (100.0%)"
+        }
+      },
+      "patterns": [
+        [
+          "Subregion",
+          "Cluster",
+          2670
+        ],
+        [
+          "Region",
+          "Cluster",
+          2017
+        ],
+        [
+          "ME_Subregion",
+          "Cluster",
+          534
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Cluster"
+          ],
+          "properties": {
+            "pct_cells": 0.07196401799100449,
+            "rank": 1
+          },
+          "source_name": "TMv",
+          "target_name": "1576 TMv-PMv Tbx3 Hist-Gaba_1"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Cluster"
+          ],
+          "properties": {
+            "pct_cells": 0.046476761619190406,
+            "rank": 2
+          },
+          "source_name": "TMv",
+          "target_name": "1855 TU-ARH Otp Six6 Gaba_3"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Cluster"
+          ],
+          "properties": {
+            "pct_cells": 0.013493253373313344,
+            "rank": 3
+          },
+          "source_name": "TMv",
+          "target_name": "2284 ARH-PVp Tbx3 Glut_5"
+        }
+      ]
+    },
+    "HAS_SUBCLASS": {
+      "count": 4163,
+      "properties": {
+        "rank": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 4163,
+          "coverage": "4163/4163 (100.0%)"
+        },
+        "pct_cells": {
+          "type": "float",
+          "sample_value": 0.08395802098950525,
+          "non_null_count": 4163,
+          "coverage": "4163/4163 (100.0%)"
+        }
+      },
+      "patterns": [
+        [
+          "Subregion",
+          "Subclass",
+          1922
+        ],
+        [
+          "Region",
+          "Subclass",
+          1839
+        ],
+        [
+          "ME_Subregion",
+          "Subclass",
+          402
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Subclass"
+          ],
+          "properties": {
+            "pct_cells": 0.08395802098950525,
+            "rank": 1
+          },
+          "source_name": "TMv",
+          "target_name": "092 TMv-PMv Tbx3 Hist-Gaba"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Subclass"
+          ],
+          "properties": {
+            "pct_cells": 0.08095952023988005,
+            "rank": 2
+          },
+          "source_name": "TMv",
+          "target_name": "104 TU-ARH Otp Six6 Gaba"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Subclass"
+          ],
+          "properties": {
+            "pct_cells": 0.02848575712143928,
+            "rank": 3
+          },
+          "source_name": "TMv",
+          "target_name": "134 PH-ant-LHA Otp Bsx Glut"
+        }
+      ]
+    },
+    "HAS_SUPERTYPE": {
+      "count": 5202,
+      "properties": {
+        "rank": {
+          "type": "int",
+          "sample_value": 1,
+          "non_null_count": 5202,
+          "coverage": "5202/5202 (100.0%)"
+        },
+        "pct_cells": {
+          "type": "float",
+          "sample_value": 0.07796101949025487,
+          "non_null_count": 5202,
+          "coverage": "5202/5202 (100.0%)"
+        }
+      },
+      "patterns": [
+        [
+          "Subregion",
+          "Supertype",
+          2565
+        ],
+        [
+          "Region",
+          "Supertype",
+          2148
+        ],
+        [
+          "ME_Subregion",
+          "Supertype",
+          489
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Supertype"
+          ],
+          "properties": {
+            "pct_cells": 0.07796101949025487,
+            "rank": 1
+          },
+          "source_name": "TMv",
+          "target_name": "0429 TMv-PMv Tbx3 Hist-Gaba_1"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Supertype"
+          ],
+          "properties": {
+            "pct_cells": 0.046476761619190406,
+            "rank": 2
+          },
+          "source_name": "TMv",
+          "target_name": "0480 TU-ARH Otp Six6 Gaba_3"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Supertype"
+          ],
+          "properties": {
+            "pct_cells": 0.034482758620689655,
+            "rank": 3
+          },
+          "source_name": "TMv",
+          "target_name": "0479 TU-ARH Otp Six6 Gaba_2"
+        }
+      ]
+    },
+    "LOCATE_AT": {
+      "count": 18857,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "Region",
+          18857
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "MOs"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2627_x17126_y20600_CCFv3",
+          "target_name": "MOs"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_4149_x16164_y21238_CCFv3",
+          "target_name": "ACAd"
+        }
+      ]
+    },
+    "LOCATE_AT_ME_SUBREGION": {
+      "count": 9312,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "ME_Subregion",
+          9312
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "ME_Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_4500_x16614_y17147_CCFv3",
+          "target_name": "Secondary motor area, layer 6a, dendrite microenvironment based region 6"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "ME_Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_17109_1701_x8048_y22277_CCFv3",
+          "target_name": "Agranular insular area, dorsal part, layer 5, dendrite microenvironment based region 1"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "ME_Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_17109_2301_x8535_y23051_CCFv3",
+          "target_name": "Agranular insular area, dorsal part, layer 6a, dendrite microenvironment based region 1"
+        }
+      ]
+    },
+    "LOCATE_AT_SUBREGION": {
+      "count": 20322,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "Subregion",
+          20322
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_2226_x16029_y23953_CCFv3",
+          "target_name": "Secondary motor area, layer 5"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_4149_x16164_y21238_CCFv3",
+          "target_name": "Anterior cingulate area, dorsal part, layer 6a"
+        },
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Subregion"
+          ],
+          "properties": {},
+          "source_name": "SEU-ALLEN_full_15257_4500_x16614_y17147_CCFv3",
+          "target_name": "Secondary motor area, layer 6a"
+        }
+      ]
+    },
+    "NEIGHBOURING": {
+      "count": 1,
+      "properties": {},
+      "patterns": [
+        [
+          "Neuron",
+          "Neuron",
+          1
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Neuron"
+          ],
+          "target_labels": [
+            "Neuron"
+          ],
+          "properties": {},
+          "source_name": "MouseLight_full_AA0429_CCFv3",
+          "target_name": "SEU-ALLEN_full_18867_7583_x22567_y18119_CCFv3"
+        }
+      ]
+    },
+    "PROJECT_TO": {
+      "count": 1135049,
+      "properties": {
+        "neuron_count": {
+          "type": "int",
+          "sample_value": 517,
+          "non_null_count": 1135049,
+          "coverage": "1135049/1135049 (100.0%)"
+        },
+        "weight": {
+          "type": "float",
+          "sample_value": 5743.5531896289485,
+          "non_null_count": 1135049,
+          "coverage": "1135049/1135049 (100.0%)"
+        },
+        "total": {
+          "type": "float",
+          "sample_value": 2969416.9990381664,
+          "non_null_count": 1135049,
+          "coverage": "1135049/1135049 (100.0%)"
+        },
+        "target_acronym": {
+          "type": "str",
+          "sample_value": "ORBl",
+          "non_null_count": 1135049,
+          "coverage": "1135049/1135049 (100.0%)"
+        },
+        "source_acronym": {
+          "type": "str",
+          "sample_value": "ORBvl",
+          "non_null_count": 1135049,
+          "coverage": "1135049/1135049 (100.0%)"
+        }
+      },
+      "patterns": [
+        [
+          "Neuron",
+          "Region",
+          591345
+        ],
+        [
+          "Neuron",
+          "Subregion",
+          487825
+        ],
+        [
+          "Subregion",
+          "Subregion",
+          20570
+        ],
+        [
+          "Region",
+          "Region",
+          18087
+        ],
+        [
+          "Region",
+          "Subregion",
+          17222
+        ]
+      ],
+      "sample_relationships": [
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {
+            "total": 2969416.9990381664,
+            "target_acronym": "ORBl",
+            "source_acronym": "ORBvl",
+            "weight": 5743.5531896289485,
+            "neuron_count": 517
+          },
+          "source_name": "ORBvl",
+          "target_name": "ORBl"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {
+            "total": 1051832.5725957325,
+            "target_acronym": "ORBm",
+            "source_acronym": "ORBvl",
+            "weight": 2301.603003491756,
+            "neuron_count": 457
+          },
+          "source_name": "ORBvl",
+          "target_name": "ORBm"
+        },
+        {
+          "source_labels": [
+            "Region"
+          ],
+          "target_labels": [
+            "Region"
+          ],
+          "properties": {
+            "total": 6304781.662154484,
+            "target_acronym": "ORBvl",
+            "source_acronym": "ORBvl",
+            "weight": 9231.012682510225,
+            "neuron_count": 683
+          },
+          "source_name": "ORBvl",
+          "target_name": "ORBvl"
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "total_nodes": 34771,
+    "total_relationships": 258359096,
+    "node_types": 8,
+    "relationship_types": 12,
+    "node_breakdown": {
+      "Class": 28,
+      "Cluster": 5204,
+      "ME_Subregion": 628,
+      "Neuron": 26740,
+      "Region": 337,
+      "Subclass": 314,
+      "Subregion": 365,
+      "Supertype": 1155
+    },
+    "relationship_breakdown": {
+      "AXON_NEIGHBOURING": 128575491,
+      "BELONGS_TO": 7596,
+      "DEN_NEIGHBOURING": 128575491,
+      "HAS_CLASS": 2391,
+      "HAS_CLUSTER": 5221,
+      "HAS_SUBCLASS": 4163,
+      "HAS_SUPERTYPE": 5202,
+      "LOCATE_AT": 18857,
+      "LOCATE_AT_ME_SUBREGION": 9312,
+      "LOCATE_AT_SUBREGION": 20322,
+      "NEIGHBOURING": 1,
+      "PROJECT_TO": 1135049
+    }
+  }
+}
